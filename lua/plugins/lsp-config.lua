@@ -27,12 +27,6 @@ return {
         capabilities = capabilities
       })
 
-      lspconfig.gdscript.setup({
-        name = "godot",
-        cmd = {"ncat", "127.0.0.1", "6005"},
-        root_dir = require("lspconfig.util").root_pattern("project.godot", ".git"),
-      })
-     
       local cmp = require("cmp")
       cmp.setup {
         snippet = {
