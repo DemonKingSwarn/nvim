@@ -13,3 +13,4 @@ vim.opt.rtp:prepend(lazypath)
 
 require("vim-cmds")
 require("lazy").setup("plugins")
+require('animuwu').setup()
