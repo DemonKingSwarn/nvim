@@ -26,6 +26,5 @@ vim.opt.inccommand = "split"
 -- ignore case
 vim.opt.ignorecase = true
 
--- setup leader and local leader
-vim.g.mapleader = " "
-vim.g.maplocalleader = ";"
+-- disable neovim swap files
+vim.opt.swapfile = false
