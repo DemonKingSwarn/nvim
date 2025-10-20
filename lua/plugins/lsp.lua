@@ -1,3 +1,4 @@
-vim.lsp.enable(
-  "nixd"
-)
+vim.lsp.enable({
+  "nixd",
+  "lua_ls",
+})
