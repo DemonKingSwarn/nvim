@@ -1,3 +1,6 @@
+vim.pack.add({
+  { src = "https://github.com/nvim-treesitter/nvim-treesitter" },
+})
 ---@diagnostic disable: missing-fields
 require("nvim-treesitter.configs").setup({
   ensure_installed = { "go", "nix" },

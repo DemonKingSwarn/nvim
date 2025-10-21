@@ -1,3 +1,7 @@
+vim.pack.add({
+  { src = "https://github.com/nvim-mini/mini.nvim" },
+})
+
 -- setup picker with icons
 require("mini.icons").setup()
 require("mini.pick").setup({

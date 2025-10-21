@@ -1,3 +1,7 @@
+vim.pack.add({
+  { src = "https://github.com/folke/lazydev.nvim" }
+})
+
 -- Enable some settings globally
 vim.lsp.config("*", {
   -- allow for multiline token support
