@@ -1,5 +1,6 @@
+---@diagnostic disable: missing-fields
 require("nvim-treesitter.configs").setup({
-  ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "go", "nix" },
+  ensure_installed = { "go", "nix" },
 
   auto_install = true,
 
