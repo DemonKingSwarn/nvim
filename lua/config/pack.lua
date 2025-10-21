@@ -7,6 +7,4 @@ vim.pack.add({
   { src = "https://github.com/neovim/nvim-lspconfig" },
   -- Amazing neovim bundle of plugins that are super nice
   { src = "https://github.com/nvim-mini/mini.nvim" },
-  -- Fix the annoying neovim+lua errors
-  { src = "https://github.com/folke/lazydev.nvim" },
 })
