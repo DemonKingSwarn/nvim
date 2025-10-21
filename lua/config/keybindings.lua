@@ -24,3 +24,10 @@ vim.keymap.set("v", ">", ">gv", { desc = "Indent right and reselect" })
 
 -- file exploring
 vim.keymap.set("n", "<Leader>e", ":Oil<CR>", { desc = "Open oil file explorer" })
+
+-- Copy Full File-Path
+vim.keymap.set("n", "<leader>yp", function()
+	local path = vim.fn.expand("%:p")
+	vim.fn.setreg("+", path)
+	print("file:", path)
+end)
