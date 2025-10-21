@@ -1,1 +1,5 @@
 require("mini.pick").setup()
+require("mini.icons").setup()
+require("mini.statusline").setup()
+require("mini.git").setup()
+require("mini.diff").setup()
