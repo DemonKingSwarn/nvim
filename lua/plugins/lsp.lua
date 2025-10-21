@@ -34,3 +34,6 @@ vim.lsp.enable({
 
 -- diagnostic settings
 vim.diagnostic.config({ virtual_text = true })
+
+-- fix annoying lua lsp errors
+require("lazydev").setup()
