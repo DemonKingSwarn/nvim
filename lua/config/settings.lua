@@ -83,3 +83,22 @@ vim.opt.encoding = "UTF8"
 vim.opt.wildmenu = true
 vim.opt.wildmode = "longest:full,full"
 vim.opt.wildignore:append({ "*.o", "*.obj", "*.pyc", "*.class", "*.jar" })
+
+-- disable builtin plugins that I don't use
+local builtin_plugs = {
+  "gzip",
+  "matchit",
+  "matchparen",
+  "netrwPlugin",
+  "tarPlugin",
+  "tohtml",
+  "tutor",
+  "zipPlugin",
+  "2html_plugin",
+  "getscript",
+  "getscriptPlugin",
+}
+
+for i = 1, #builtin_plugs do
+  vim.g['loaded_' .. builtin_plugs[i]] = true
+end

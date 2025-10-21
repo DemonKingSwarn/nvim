@@ -1,5 +1,4 @@
 require("plugins.colorscheme")
 require("plugins.treesitter")
 require("plugins.lsp")
-require("plugins.oil")
 require("plugins.mini")
