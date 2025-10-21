@@ -37,10 +37,6 @@ vim.opt.inccommand = "split"
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
--- matching bracket settings
-vim.opt.showmatch = true
-vim.opt.matchtime = 2
-
 -- commandline settings
 vim.opt.cmdheight = 1
 vim.opt.showmode = false
@@ -49,16 +45,6 @@ vim.opt.showmode = false
 vim.opt.pumheight = 10
 vim.opt.pumblend = 10
 vim.opt.winblend = 0
-
--- concealing settings
-vim.opt.conceallevel = 0
-vim.opt.concealcursor = ""
-
--- redraw lazilly
-vim.opt.lazyredraw = true
-
--- lower syntax highlighing for performance
-vim.opt.synmaxcol = 300
 
 -- better completion options
 vim.opt.completeopt = "menuone,noinsert,noselect"
@@ -76,7 +62,7 @@ vim.opt.swapfile = false
 vim.opt.undofile = true
 vim.opt.undodir = vim.fn.expand("~/.local/state/nvim/undo")
 vim.opt.autoread = true
-vim.opt.autowrite = true
+vim.opt.autowrite = false
 
 -- durations for completion and other stuff
 vim.opt.updatetime = 300
@@ -89,7 +75,11 @@ vim.opt.errorbells = false
 vim.opt.backspace = "indent,eol,start"
 vim.opt.autochdir = false
 vim.opt.iskeyword:append("-") -- treat dash as part of the word
-vim.opt.path:append("**") -- include subdirectories in search
-vim.opt.selection = "exclusive"
+vim.opt.path:append("**")     -- include subdirectories in search
 vim.opt.modifiable = true
 vim.opt.encoding = "UTF8"
+
+-- better completion settings for the commandline
+vim.opt.wildmenu = true
+vim.opt.wildmode = "longest:full,full"
+vim.opt.wildignore:append({ "*.o", "*.obj", "*.pyc", "*.class", "*.jar" })
