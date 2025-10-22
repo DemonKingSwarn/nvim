@@ -15,6 +15,9 @@ vim.opt.splitright = true
 -- disable line wrapping
 vim.opt.wrap = false
 
+-- enable global statusline
+vim.opt.laststatus = 3
+
 -- setup tabs and indenting
 vim.opt.expandtab = true
 vim.opt.smartindent = true
