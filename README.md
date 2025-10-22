@@ -10,6 +10,12 @@
   - [Treesitter](#treesitter)
   - [Lsp](#lsp)
   - [Code completion/autocompletion and snippets](#code-completionautocompletion-and-snippets)
+  - [Fuzzy finder/searcher](#fuzzy-findersearcher)
+  - [statusline](#statusline)
+  - [File manager](#file-manager)
+  - [Keybindings cheatsheet](#keybindings-cheatsheet)
+  - [Auto pair](#auto-pair)
+  - [Miscelenaous plugins](#miscelenaous-plugins)
 <!--toc:end-->
 
 Very simple neovim config with just stuff I need to do my work/act like I'm a worker.
