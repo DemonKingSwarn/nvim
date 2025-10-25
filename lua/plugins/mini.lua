@@ -29,6 +29,7 @@ hipatterns.setup({
 -- mini.pick keybindings
 local patterns = { "fixme", "hack", "todo", "note", }
 vim.keymap.set("n", "<Leader>ff", ":Pick files<CR>", { desc = "Search file in directory" })
+vim.keymap.set("n", "<Leader>fw", ":Pick grep_live<CR>", { desc = "Search for word in directory" })
 vim.keymap.set("n", "<Leader>fh", ":Pick help<CR>", { desc = "Search neovim help" })
 vim.keymap.set("n", "<Leader>fd", ":Pick diagnostic<CR>", { desc = "Search diagnostics" })
 vim.keymap.set("n", "<Leader>fgb", ":Pick git_branches scope='local'<CR>", { desc = "Search git branches" })
@@ -172,8 +173,8 @@ miniclue.setup({
 -- minimal session manager
 require("mini.sessions").setup()
 
-vim.keymap.set("n", "<Leader>pc", function() MiniSessions.write() end, { desc = "Create new session/project" })
-vim.keymap.set("n", "<Leader>ps", function() MiniSessions.select("read") end, { desc = "Select session/project" })
+vim.keymap.set("n", "<Leader>sc", function() MiniSessions.write() end, { desc = "Create new session/project" })
+vim.keymap.set("n", "<Leader>ss", function() MiniSessions.select("read") end, { desc = "Select session/project" })
 
 -- nice file/directory visit tracker
 require("mini.visits").setup()
