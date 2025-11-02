@@ -1,5 +1,5 @@
 local port = '6005'
-local cmd = {'netcat', '127.0.0.1', port}
+local cmd = {'nc', '127.0.0.1', port}
 local pipe = '/tmp/godot.pipe'
 
 vim.lsp.start({
