@@ -1,5 +1,17 @@
+local function command_exists(cmd)
+  local handle = io.popen("which " .. cmd .. " 2>/dev/null")
+  local result = handle:read("*a")
+  handle:close()
+  return result ~= ""
+end
+
 local port = '6005'
-local cmd = {'nc', '127.0.0.1', port}
+local cmd
+if command_exists("ncat") then
+  cmd = {'ncat', '127.0.0.1', port}
+elseif command_exists("nc") then
+  cmd = {"nc", "127.0.0.1", port}
+end
 local pipe = '/tmp/godot.pipe'
 
 vim.lsp.start({
