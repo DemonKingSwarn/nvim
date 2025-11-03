@@ -28,7 +28,7 @@ return {
       })
       require('mini.starter').setup({
         header = "Hello, Friend",
-        footer = "We stand on the shoulders of the giants!"
+        footer = "you're gay for my code, you're code gay."
       })
       require('mini.icons').setup({
         style = 'glyph',
