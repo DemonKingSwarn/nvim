@@ -21,8 +21,12 @@ vim.lsp.enable({
   "nixd",
   "lua_ls",
   "jsonls",
+  "html",
   "marksman",
   "gopls",
+  "ruff",
+  "basedpyright",
+  "yamlls",
 })
 
 -- diagnostic settings
