@@ -22,6 +22,7 @@ vim.lsp.enable({
   "lua_ls",
   "jsonls",
   "marksman",
+  "gopls",
 })
 
 -- diagnostic settings
