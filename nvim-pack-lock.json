@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "conform.nvim": {
+      "rev": "26c02e1",
+      "src": "https://github.com/stevearc/conform.nvim"
+    },
     "gruvbox.nvim": {
       "rev": "5e0a460",
       "src": "https://github.com/ellisonleao/gruvbox.nvim"
