@@ -8,6 +8,14 @@
       "rev": "371cd74",
       "src": "https://github.com/folke/lazydev.nvim"
     },
+    "markdown-table-mode.nvim": {
+      "rev": "bb1ea9b",
+      "src": "https://github.com/Kicamon/markdown-table-mode.nvim"
+    },
+    "markdown.nvim": {
+      "rev": "34bb889",
+      "src": "https://github.com/tadmccorkle/markdown.nvim"
+    },
     "mini.nvim": {
       "rev": "429e5f9",
       "src": "https://github.com/nvim-mini/mini.nvim"
@@ -19,6 +27,10 @@
     "nvim-treesitter": {
       "rev": "42fc28ba",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "render-markdown.nvim": {
+      "rev": "10126ef",
+      "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     }
   }
 }
