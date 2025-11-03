@@ -5,8 +5,8 @@ vim.g.maplocalleader = ";"
 -- source current file
 vim.keymap.set("n", "<Leader> ", ":update<CR> :source<CR>", { desc = "Source current lua file" })
 
--- format
-vim.keymap.set("n", "<Leader>lf", vim.lsp.buf.format, { desc = "Format buffer with available lsp" })
+-- -- format
+-- vim.keymap.set("n", "<Leader>lf", vim.lsp.buf.format, { desc = "Format buffer with available lsp" })
 
 -- easy copy/cut/paste from system clipboard
 vim.keymap.set({ "n", "v", "x" }, "<Leader>y", '"+y', { desc = "Yank to system clipboard" })
