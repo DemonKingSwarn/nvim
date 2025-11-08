@@ -1,7 +1,6 @@
 vim.pack.add({
-  {src = "https://github.com/stevearc/conform.nvim"},
+  { src = "https://github.com/stevearc/conform.nvim" },
 })
-
 vim.api.nvim_create_user_command("Format", function(args)
   local range = nil
   if args.count ~= -1 then
