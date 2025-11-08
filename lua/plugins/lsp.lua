@@ -27,6 +27,7 @@ vim.lsp.enable({
   "ruff",
   "basedpyright",
   "yamlls",
+  "bashls",
 })
 
 -- diagnostic settings
