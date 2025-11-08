@@ -20,7 +20,7 @@ vim.opt.laststatus = 3
 
 -- setup tabs and indenting
 vim.opt.expandtab = true
-vim.opt.smartindent = true
+vim.opt.smartindent = false
 vim.opt.autoindent = true
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
@@ -76,7 +76,6 @@ vim.opt.ttimeoutlen = 0
 vim.opt.hidden = true
 vim.opt.errorbells = false
 vim.opt.backspace = "indent,eol,start"
-vim.opt.autochdir = false
 vim.opt.iskeyword:append("-") -- treat dash as part of the word
 vim.opt.path:append("**")     -- include subdirectories in search
 vim.opt.modifiable = true
