@@ -31,3 +31,11 @@ vim.api.nvim_create_autocmd("BufWritePre", {
   end,
 })
 
+-- disable autocommenting lines
+vim.api.nvim_create_autocmd("FileType", {
+  group = augroup,
+  pattern = "*",
+  callback = function()
+    vim.opt_local.formatoptions:remove({ "r", "o" })
+  end,
+})
