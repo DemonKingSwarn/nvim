@@ -1,5 +1,5 @@
 vim.pack.add({
-  { src = "https://github.com/ellisonleao/gruvbox.nvim" },
+  { src = "https://github.com/folke/tokyonight.nvim" },
 })
 vim.o.background = "dark"
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme tokyonight-night]])
