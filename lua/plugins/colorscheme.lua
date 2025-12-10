@@ -1,5 +1,5 @@
 vim.pack.add({
-  { src = "https://github.com/folke/tokyonight.nvim" },
+  { src = "https://github.com/rose-pine/neovim", name = "rose-pine" },
 })
 vim.o.background = "dark"
-vim.cmd([[colorscheme tokyonight-night]])
+vim.cmd([[colorscheme rose-pine]])
