@@ -37,7 +37,7 @@ vim.keymap.set("n", "<Leader>fgc", ":Pick git_commits<CR>", { desc = "Search git
 vim.keymap.set("n", "<Leader>fgh", ":Pick git_hunks<CR>", { desc = "Search git hunks" })
 vim.keymap.set("n", "<Leader>fp", function()
   MiniExtra.pickers.hipatterns({ highlighters = patterns })
-end, { desc = "Search git hunks" })
+end, { desc = "Search patterns" })
 
 -- git related stuff
 require("mini.git").setup()
