@@ -29,6 +29,7 @@ vim.lsp.enable({
   "yamlls",
   "bashls",
   "csharp_ls",
+  "zls",
 })
 
 -- diagnostic settings
