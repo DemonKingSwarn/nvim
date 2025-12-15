@@ -1,7 +1,6 @@
-return {
-  "andweeb/presence.nvim",
-  config = function()
-    require("presence").setup({
+vim.pack.add({"https://github.com/andweeb/presence.nvim"})
+
+require("presence").setup({
       auto_update         = true,
       neovim_image_text   = "The One True Editor",
       main_image          = "neovim",
@@ -15,6 +14,4 @@ return {
       reading_text        = "Reading %s",
       workspace_text      = "Working on %s",
       line_number_text    = "Line %s out of %s",
-    })
-  end,
-}
+})

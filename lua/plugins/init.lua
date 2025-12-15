@@ -1,0 +1,6 @@
+require('plugins.catppuccin')
+require('plugins.mini')
+require('plugins.presence')
+require('plugins.markdown')
+require('plugins.lsp')
+require('plugins.conform')
