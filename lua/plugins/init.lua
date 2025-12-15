@@ -4,3 +4,5 @@ require('plugins.presence')
 require('plugins.markdown')
 require('plugins.lsp')
 require('plugins.conform')
+
+vim.pack.update()
