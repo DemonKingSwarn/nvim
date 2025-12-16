@@ -47,10 +47,9 @@ require('mini.indentscope').setup({
   }
 })
       
--- git stuff      
 require('mini.git').setup()      
 require('mini.diff').setup()
-
+require('mini.completion').setup()
 require("mini.extra").setup()
 
 local gen_loader = require("mini.snippets").gen_loader
