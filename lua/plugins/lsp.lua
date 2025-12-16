@@ -19,7 +19,7 @@ vim.lsp.config("*", {
 -- enable specific language servers
 vim.lsp.enable({
   "nixd",
-  "lua_ls",
+  "lua-language-server",
   "jsonls",
   "html",
   "marksman",
