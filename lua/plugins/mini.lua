@@ -61,6 +61,9 @@ require("mini.snippets").setup({
 -- setup completion
 require("mini.completion").setup()
 
+-- simple commandline autocomplete
+require("mini.cmdline").setup()
+
 -- move lines
 require("mini.move").setup()
 
