@@ -1,4 +1,4 @@
-require('plugins.catppuccin')
+require('plugins.colorscheme')
 require('plugins.mini')
 require('plugins.presence')
 require('plugins.markdown')
