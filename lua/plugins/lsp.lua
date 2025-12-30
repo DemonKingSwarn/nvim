@@ -18,18 +18,20 @@ vim.lsp.config("*", {
 
 -- enable specific language servers
 vim.lsp.enable({
-  "nixd",
   "lua_ls",
-  "jsonls",
-  "html",
   "marksman",
   "gopls",
   "ruff",
+  "rust-analyzer",
   "basedpyright",
-  "yamlls",
-  "bashls",
+  "clangd",
+  "bash-language-server",
   "csharp_ls",
   "zls",
+  "vscode-html-language-server",
+  "vscode-css-language-server",
+  "vscode-json-language-server",
+  "vscode-eslint-language-server",
 })
 
 -- diagnostic settings
