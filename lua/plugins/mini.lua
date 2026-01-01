@@ -14,8 +14,8 @@ require('mini.starter').setup({
   header = "hello, friend",
   footer = "you're gay for my code, you're code gay."
 })
-      
-require('mini.icons').setup({      
+
+require('mini.icons').setup({
   style = 'glyph',
   use_file_extension = function(ext, file) return true end,
 })

@@ -2,9 +2,7 @@ vim.pack.add({
   { src = "https://github.com/folke/lazydev.nvim" }
 })
 
--- Enable some settings globally
 vim.lsp.config("*", {
-  -- allow for multiline token support
   capabilities = {
     textDocument = {
       semanticTokens = {
@@ -12,11 +10,9 @@ vim.lsp.config("*", {
       }
     }
   },
-  -- make .git always be a root marker
   root_markers = { '.git' },
 })
 
--- enable specific language servers
 vim.lsp.enable({
   "lua_ls",
   "marksman",
@@ -34,8 +30,6 @@ vim.lsp.enable({
   "vscode-eslint-language-server",
 })
 
--- diagnostic settings
 vim.diagnostic.config({ virtual_text = true })
 
--- fix annoying lua lsp errors
 require("lazydev").setup()
