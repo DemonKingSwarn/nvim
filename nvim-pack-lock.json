@@ -4,6 +4,10 @@
       "rev": "3732756842a2f7e0e76a7b0487e9692072857277",
       "src": "https://github.com/L3MON4D3/LuaSnip"
     },
+    "aniuwu.nvim": {
+      "rev": "561d51248b5cfe58301e5c6a239492841e81a015",
+      "src": "https://github.com/demonkingswarn/aniuwu.nvim"
+    },
     "cmp-nvim-lsp": {
       "rev": "cbc7b02bb99fae35cb42f514762b89b5126651ef",
       "src": "https://github.com/hrsh7th/cmp-nvim-lsp"
