@@ -35,6 +35,10 @@
     "rose-pine": {
       "rev": "cf2a288696b03d0934da713d66c6d71557b5c997",
       "src": "https://github.com/rose-pine/neovim"
+    },
+    "todotxt.nvim": {
+      "rev": "f514ac34a491a01be3eeb2827aace06505032d38",
+      "src": "https://github.com/phrmendes/todotxt.nvim"
     }
   }
 }
