@@ -60,6 +60,10 @@
       "rev": "7a43c8b444fa15b7736b34b248addb951126f723",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
+    "teide.nvim": {
+      "rev": "c9cd84e59c57651be7cc6b0f981011c247b6d233",
+      "src": "https://github.com/serhez/teide.nvim"
+    },
     "tokyonight.nvim": {
       "rev": "5da1b76e64daf4c5d410f06bcb6b9cb640da7dfd",
       "src": "https://github.com/folke/tokyonight.nvim"

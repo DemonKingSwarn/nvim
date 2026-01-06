@@ -4,7 +4,7 @@ require('mini.statusline').setup({
   use_icons = true,
 })
 
-require("tokyonight").setup({
+require("teide").setup({
   integration = {
     mini = true,
   },

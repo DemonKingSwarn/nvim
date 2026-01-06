@@ -14,7 +14,7 @@ vim.lsp.config("*", {
 })
 
 vim.lsp.enable({
-  "lua_ls",
+  "lua-language-server",
   "marksman",
   "gopls",
   "ruff",
