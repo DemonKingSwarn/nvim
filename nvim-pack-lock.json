@@ -1,7 +1,7 @@
 {
   "plugins": {
     "conform.nvim": {
-      "rev": "8314f4c9e205e7f30b62147069729f9a1227d8bf",
+      "rev": "c2526f1cde528a66e086ab1668e996d162c75f4f",
       "src": "https://github.com/stevearc/conform.nvim"
     },
     "lazydev.nvim": {
@@ -17,11 +17,11 @@
       "src": "https://github.com/tadmccorkle/markdown.nvim"
     },
     "mini.nvim": {
-      "rev": "43ec25063430196d36f5fff5758c9101775f3d57",
+      "rev": "9b935c218ddba02e5dc75c94f90143bce1f7c646",
       "src": "https://github.com/nvim-mini/mini.nvim"
     },
     "nvim-lspconfig": {
-      "rev": "ac04ec3c2af08e9821b4eb64ede86072b9b213bf",
+      "rev": "4044b8544a6cea57179d5a29c203b6b65d2b6ac4",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
@@ -29,7 +29,7 @@
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "render-markdown.nvim": {
-      "rev": "07d088bf8bdadd159eb807b90eaee86a4778383f",
+      "rev": "c54380dd4d8d1738b9691a7c349ecad7967ac12e",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "rose-pine": {
@@ -37,7 +37,7 @@
       "src": "https://github.com/rose-pine/neovim"
     },
     "todotxt.nvim": {
-      "rev": "f514ac34a491a01be3eeb2827aace06505032d38",
+      "rev": "65eb9543046b1db6a0b59edf98fff59fdbc77c01",
       "src": "https://github.com/phrmendes/todotxt.nvim"
     }
   }
