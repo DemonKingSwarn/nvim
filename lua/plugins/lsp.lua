@@ -28,6 +28,7 @@ vim.lsp.enable({
   "basedpyright",
   "yamlls",
   "bashls",
+  "just",
 })
 
 -- diagnostic settings
