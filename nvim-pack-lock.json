@@ -1,7 +1,7 @@
 {
   "plugins": {
     "conform.nvim": {
-      "rev": "c2526f1cde528a66e086ab1668e996d162c75f4f",
+      "rev": "e969e302bced7ffb9a0a0323629f31feb0ca35a6",
       "src": "https://github.com/stevearc/conform.nvim"
     },
     "lazydev.nvim": {
@@ -9,7 +9,7 @@
       "src": "https://github.com/folke/lazydev.nvim"
     },
     "markdown-table-mode.nvim": {
-      "rev": "bb1ea9b",
+      "rev": "bb1ea9b76c1b29e15e14806fdfbb2319df5c06f1",
       "src": "https://github.com/Kicamon/markdown-table-mode.nvim"
     },
     "markdown.nvim": {
@@ -17,19 +17,19 @@
       "src": "https://github.com/tadmccorkle/markdown.nvim"
     },
     "mini.nvim": {
-      "rev": "9b935c218ddba02e5dc75c94f90143bce1f7c646",
+      "rev": "577d2dcb558efce1518c45a76345e01bf346c8e8",
       "src": "https://github.com/nvim-mini/mini.nvim"
     },
     "nvim-lspconfig": {
-      "rev": "3f58aeca0c6ece8a9fb8782ea3fcb6024f285be3",
+      "rev": "ab5139c99df944479e5a26495a37840fcbb1d512",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
-      "rev": "42fc28ba",
+      "rev": "a8845121f063458ef23df86e73f16bbee71ec67b",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
     "render-markdown.nvim": {
-      "rev": "48934b49a2363b49ae1d698ed4cb30fb79d7efe8",
+      "rev": "1c958131c083c8557ea499fdb08c88b8afb05c4e",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
     "rose-pine": {
