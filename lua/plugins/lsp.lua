@@ -16,6 +16,9 @@ vim.lsp.config("*", {
   root_markers = { '.git' },
 })
 
+-- fix annoying lua lsp errors
+require("lazydev").setup()
+
 -- enable specific language servers
 vim.lsp.enable({
   "nixd",
@@ -33,6 +36,3 @@ vim.lsp.enable({
 
 -- diagnostic settings
 vim.diagnostic.config({ virtual_text = true })
-
--- fix annoying lua lsp errors
-require("lazydev").setup()

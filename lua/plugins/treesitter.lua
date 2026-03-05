@@ -1,28 +1,10 @@
 vim.pack.add({
-  { src = "https://github.com/nvim-treesitter/nvim-treesitter", name = "nvim-treesitter" },
+  { src = "https://github.com/nvim-treesitter/nvim-treesitter" },
 })
 ---@diagnostic disable: missing-fields
-require'nvim-treesitter'.setup {
-  -- ensure_installed = { "go", "nix" },
+require 'nvim-treesitter'.setup {}
 
-  auto_install = true,
-
-  highlight = {
-    enable = true,
-  },
-
-  incremental_selection = {
-    enable = true,
-    keymaps = {
-      init_selection = "<Leader>ss",
-      node_incremental = "<Leader>si",
-      scope_incremental = "<Leader>sc",
-      node_decremental = "<Leader>sd",
-    },
-  },
-}
-
-require'nvim-treesitter'.install { 'go', 'nix'}
+require 'nvim-treesitter'.install { 'go', 'nix', 'lua', 'json', 'html', 'markdown_inline', 'python', 'bash', 'zsh', 'just', 'yaml' }
 
 -- run tsupdate when updating nvim-treesitter
 vim.api.nvim_create_autocmd('PackChanged', {
