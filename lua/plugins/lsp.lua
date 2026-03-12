@@ -24,7 +24,7 @@ vim.lsp.enable({
   "csharp_ls",
   "lua_ls",
   "jsonls",
-  "rust-analyzer",
+  "rust_analyzer",
   "marksman",
   "gopls",
   "ruff",
@@ -32,6 +32,7 @@ vim.lsp.enable({
   "yamlls",
   "bashls",
   "just",
+  "clangd",
 })
 
 -- diagnostic settings
