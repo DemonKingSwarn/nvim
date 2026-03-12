@@ -1,6 +1,13 @@
 vim.pack.add({
   { src = "https://github.com/stevearc/conform.nvim" },
 })
+
+require("conform").setup({
+  formatters_by_ft = {
+    nix = { "alejandra" },
+  },
+})
+
 vim.api.nvim_create_user_command("Format", function(args)
   local range = nil
   if args.count ~= -1 then
@@ -14,3 +21,4 @@ vim.api.nvim_create_user_command("Format", function(args)
 end, { range = true })
 
 vim.keymap.set("n", "<Leader>lf", ":Format<CR>", { desc = "Format buffer with available lsp" })
+
