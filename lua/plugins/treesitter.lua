@@ -4,7 +4,7 @@ vim.pack.add({
 ---@diagnostic disable: missing-fields
 require 'nvim-treesitter'.setup {}
 
-require 'nvim-treesitter'.install { 'go', 'nix', 'lua', 'json', 'html', 'markdown_inline', 'python', 'bash', 'zsh', 'just', 'yaml' }
+require 'nvim-treesitter'.install { 'go', 'lua', 'json', 'markdown_inline', 'python','just', 'yaml' }
 
 -- run tsupdate when updating nvim-treesitter
 vim.api.nvim_create_autocmd('PackChanged', {
