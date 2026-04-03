@@ -32,6 +32,7 @@ vim.lsp.enable({
   "yamlls",
   "bashls",
   "just",
+  "qmlls",
 })
 
 -- diagnostic settings
