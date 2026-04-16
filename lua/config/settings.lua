@@ -21,7 +21,7 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 
 -- disable line wrapping
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 -- enable global statusline
 vim.opt.laststatus = 3
