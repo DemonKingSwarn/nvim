@@ -3,8 +3,8 @@ vim.pack.add({
 })
 
 require("todotxt").setup({
-  todotxt = vim.env.HOME .. "/docs/sb/todo/todo.txt",
-  donetxt = vim.env.HOME .. "/docs/sb/todo/done.txt",
+  todotxt = vim.env.HOME .. "/dox/todo/todo.txt",
+  donetxt = vim.env.HOME .. "/dox/todo/done.txt",
   ghost_text = {
     enable = true,
     mappings = {

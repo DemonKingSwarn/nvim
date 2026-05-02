@@ -1,4 +1,4 @@
--- setup mini.clues, whickey but much simpler
+-- setup mini.clue, whichkey but much simpler
 local miniclue = require('mini.clue')
 miniclue.setup({
   triggers = {
@@ -31,27 +31,20 @@ miniclue.setup({
     -- `z` key
     { mode = 'n', keys = 'z' },
     { mode = 'x', keys = 'z' },
-
-    -- add in support for built in completion
-    { mode = 'i', keys = '<C-x>' },
   },
 
   clues = {
-    -- Enhance this by adding descriptions for <Leader> mapping groups
     miniclue.gen_clues.builtin_completion(),
     miniclue.gen_clues.g(),
     miniclue.gen_clues.marks(),
     miniclue.gen_clues.registers(),
     miniclue.gen_clues.windows(),
     miniclue.gen_clues.z(),
-    -- add some clues to custom stuff
+    -- group labels
     { mode = "n", keys = "<Leader>f",  desc = "Find" },
     { mode = "n", keys = "<Leader>fg", desc = "Git" },
     { mode = "n", keys = "<Leader>l",  desc = "Lsp" },
-    { mode = "n", keys = "<Leader>s",  desc = "Treesitter" },
-    { mode = "n", keys = "<Leader>v",  desc = "Visits" },
-
-    -- built in completion
+    -- built-in completion hints
     { mode = 'i', keys = '<C-x><C-f>', desc = 'File names' },
     { mode = 'i', keys = '<C-x><C-l>', desc = 'Whole lines' },
     { mode = 'i', keys = '<C-x><C-o>', desc = 'Omni completion' },

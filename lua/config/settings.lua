@@ -1,3 +1,11 @@
+vim.g.mapleader = " "
+
+-- navigate vim panes better
+vim.keymap.set('n', '<C-k>', ':wincmd k<CR>')
+vim.keymap.set('n', '<C-j>', ':wincmd j<CR>')
+vim.keymap.set('n', '<C-h>', ':wincmd h<CR>')
+vim.keymap.set('n', '<C-l>', ':wincmd l<CR>')
+
 -- enable line number and relative line numbers
 vim.opt.number = true
 vim.opt.relativenumber = true
@@ -13,7 +21,7 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 
 -- disable line wrapping
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 -- enable global statusline
 vim.opt.laststatus = 3
@@ -55,7 +63,7 @@ vim.opt.completeopt = "menuone,noinsert,noselect"
 -- enable signcolumn
 vim.opt.signcolumn = "yes"
 
--- enable rounded borders
+-- enable rounded borders (nvim 0.11+)
 vim.opt.winborder = "rounded"
 
 -- better file handling
@@ -66,6 +74,7 @@ vim.opt.undofile = true
 vim.opt.undodir = vim.fn.expand("~/.local/state/nvim/undo")
 vim.opt.autoread = true
 vim.opt.autowrite = false
+vim.opt.clipboard = 'unnamedplus'
 
 -- durations for completion and other stuff
 vim.opt.updatetime = 300

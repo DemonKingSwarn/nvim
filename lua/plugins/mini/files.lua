@@ -27,11 +27,10 @@ vim.api.nvim_create_autocmd('User', {
   pattern = 'MiniFilesBufferCreate',
   callback = function(args)
     local b = args.data.buf_id
-    vim.keymap.set('n', 'g~', set_cwd, { buffer = b, desc = 'Set cwd' })
-    vim.keymap.set('n', 'gX', ui_open, { buffer = b, desc = 'OS open' })
-    vim.keymap.set('n', 'gy', yank_path, { buffer = b, desc = 'Yank path' })
+    vim.keymap.set('n', 'g~', set_cwd,    { buffer = b, desc = 'Set cwd' })
+    vim.keymap.set('n', 'gX', ui_open,    { buffer = b, desc = 'OS open' })
+    vim.keymap.set('n', 'gy', yank_path,  { buffer = b, desc = 'Yank path' })
   end,
 })
 
--- setup keybinding for mini.files
-vim.keymap.set("n", "<Leader>e", function() minifiles_toggle() end, { desc = "Toggle mini.files explorer" })
+vim.keymap.set("n", "<leader>e", function() minifiles_toggle() end, { desc = "Toggle mini.files explorer" })

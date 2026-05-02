@@ -1,5 +1,8 @@
 -- setup picker with icons
-require("mini.icons").setup()
+require("mini.icons").setup({
+  style = 'glyph',
+  use_file_extension = function(ext, file) return true end,
+})
 require("mini.pick").setup({
   options = {
     use_cache = true,
@@ -10,7 +13,7 @@ require("mini.pick").setup({
 require("mini.extra").setup()
 
 -- mini.pick keybindings
-local patterns = { "fixme", "hack", "todo", "note", }
+local patterns = { "fixme", "hack", "todo", "note" }
 vim.keymap.set("n", "<Leader>ff", ":Pick files<CR>", { desc = "Search file in directory" })
 vim.keymap.set("n", "<Leader>fw", ":Pick grep_live<CR>", { desc = "Search for word in directory" })
 vim.keymap.set("n", "<Leader>fh", ":Pick help<CR>", { desc = "Search neovim help" })

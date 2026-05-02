@@ -1,6 +1,7 @@
-require("plugins.colorscheme")
+require("plugins.colourscheme")
 require("plugins.treesitter")
 require("plugins.lsp")
+require("plugins.jai")
 require("plugins.mini")
 require("plugins.mini.init")
 require("plugins.markdown")
