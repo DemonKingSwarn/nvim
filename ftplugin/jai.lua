@@ -36,7 +36,7 @@ if SETUP_TREESITTER then
       cp ~/opt/tree-sitter-jai/queries/*  ~/.config/nvim-jai/queries/jai/
     ]]
   -- Tell neovim about the treesitter plugin and its DLL path
-  vim.treesitter.language.add('jai', { path = vim.fn.expand('~/opt/tree-sitter-jai/build/libtree-sitter-jai.so') })
+  vim.treesitter.language.add('jai', { path = vim.fn.expand('~/.local/share/jai-treesitter/tree-sitter-jai/build/libtree-sitter-jai.so') })
 
   -- Automatically start treesitter on filetypes that we have a treesitter installation for
   vim.api.nvim_create_autocmd('FileType', {
@@ -143,7 +143,7 @@ vim.o.errorformat = jai_errfmt .. ',' .. vim.o.errorformat
 
 -- keymap to open the Jai installation directory in a new tab, for :grep
 vim.keymap.set('n', '<space>jm', function()
-  local jaipath = '~/opt/jai'
+  local jaipath = '~/dox/jai'
   vim.cmd.tabedit(jaipath .. '/modules/Basic/Print.jai')
   vim.cmd.tcd(jaipath)
 end, { desc = 'Open Jai modules (and how_tos) directory' })
@@ -156,7 +156,7 @@ vim.keymap.set('n', '<space>jb', function()
   if jai_files then
     vim.ui.select(jai_files, { prompt='Select a file to build'}, function(item)
       if item then
-        vim.opt.makeprg = 'jai "' .. item .. '"'
+        vim.opt.makeprg = 'jai-linux "' .. item .. '"'
         print("Make program set to " .. vim.opt.makeprg:get())
         vim.cmd.make() -- optional, build it too
       end
@@ -174,6 +174,3 @@ vim.keymap.set({'n', 'v'}, '<F12>', function() vim.lsp.buf.definition() end, { d
 -- Recommended to use UI2 if available. See :help ui2
 local _, ui2 = pcall(require, 'vim._core.ui2')
 if ui2 then ui2.enable() end
-
--- Just for me ;)
-vim.opt_global.background = 'light'
