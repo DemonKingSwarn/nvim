@@ -3,7 +3,7 @@ vim.pack.add({
 })
 ---@diagnostic disable: missing-fields
 require 'nvim-treesitter'.setup {
-  ensure_installed = { 'go', 'nix', 'lua', 'json', 'html', 'markdown_inline', 'python', 'bash', 'zsh', 'just', 'yaml' },
+  ensure_installed = { 'go', 'nix', 'lua', 'json', 'html', 'markdown_inline', 'python', 'bash', 'zsh', 'just', 'yaml', 'odin' },
   auto_install = false,
 }
 
