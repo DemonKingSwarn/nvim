@@ -6,11 +6,11 @@ require('mini.statusline').setup({
 })
 
 -- colorscheme integration
-require("teide").setup({
-  integration = {
-    mini = true,
-  },
-})
+--require("teide").setup({
+--  integration = {
+--    mini = true,
+--  },
+--})
 
 -- amazing fast indent scope highlight plugin
 require('mini.indentscope').setup({
