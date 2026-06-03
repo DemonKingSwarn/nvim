@@ -44,6 +44,10 @@
       "rev": "5abf61927023ea83031753504adb19630ba80eef",
       "src": "https://github.com/nvimtools/none-ls.nvim"
     },
+    "nord.nvim": {
+      "rev": "80c1e5321505aeb22b7a9f23eb82f1e193c12470",
+      "src": "https://github.com/shaunsingh/nord.nvim"
+    },
     "nvim": {
       "rev": "ce8d176faa4643e026e597ae3c31db59b63cef09",
       "src": "https://github.com/catppuccin/nvim.git"
