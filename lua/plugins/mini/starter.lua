@@ -2,7 +2,7 @@
 local starter = require('mini.starter')
 starter.setup({
   header = "hello, friend",
-  footer = "you're gay for my code, you're code gay.",
+  footer = "it's the thing which gets us to the thing.",
   evaluate_single = true,
   items = {
     starter.sections.builtin_actions(),

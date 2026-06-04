@@ -5,6 +5,15 @@ require('mini.statusline').setup({
   use_icons = true,
 })
 
+--local c = require("pywal16.core")  -- exposes the color table
+--vim.api.nvim_set_hl(0, "MiniStatuslineModeNormal",  { fg = c.background, bg = c.color1,  bold = true })
+--vim.api.nvim_set_hl(0, "MiniStatuslineModeInsert",  { fg = c.background, bg = c.color2,  bold = true })
+--vim.api.nvim_set_hl(0, "MiniStatuslineModeVisual",  { fg = c.background, bg = c.color5,  bold = true })
+--vim.api.nvim_set_hl(0, "MiniStatuslineModeCommand", { fg = c.background, bg = c.color3,  bold = true })
+--vim.api.nvim_set_hl(0, "MiniStatuslineModeOther",   { fg = c.background, bg = c.color6,  bold = true })
+--vim.api.nvim_set_hl(0, "MiniStatuslineFilename",    { fg = c.foreground, bg = c.color8  })
+--vim.api.nvim_set_hl(0, "MiniStatuslineFileinfo",    { fg = c.foreground, bg = c.color8  })
+
 -- colorscheme integration
 --require("teide").setup({
 --  integration = {

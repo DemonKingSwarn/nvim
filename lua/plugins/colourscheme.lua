@@ -1,5 +1,8 @@
 --vim.pack.add({"https://github.com/serhez/teide.nvim"})
 vim.pack.add({"https://github.com/gbprod/nord.nvim"})
+--vim.pack.add({
+--  { src = "https://github.com/uZer/pywal16.nvim" },
+--})
 
 local function ColorMyPencils()
   vim.cmd([[colorscheme nord]])

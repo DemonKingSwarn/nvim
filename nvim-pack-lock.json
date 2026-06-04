@@ -80,6 +80,10 @@
       "rev": "87c857a56b7703f976d3a5ef15967d80508df6e6",
       "src": "https://github.com/andweeb/presence.nvim"
     },
+    "pywal16.nvim": {
+      "rev": "190cc81189ebcb7a55cb73a936329675394d676f",
+      "src": "https://github.com/uZer/pywal16.nvim"
+    },
     "render-markdown.nvim": {
       "rev": "c7188a8f9d2953696b6303caccbf39c51fa2c1b1",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
