@@ -15,11 +15,11 @@ require('mini.statusline').setup({
 --vim.api.nvim_set_hl(0, "MiniStatuslineFileinfo",    { fg = c.foreground, bg = c.color8  })
 
 -- colorscheme integration
---require("oxocarbon").setup({
---  integration = {
---    mini = true,
---  },
---})
+require("teide").setup({
+  integration = {
+    mini = true,
+  },
+})
 
 -- amazing fast indent scope highlight plugin
 require('mini.indentscope').setup({
