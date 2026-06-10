@@ -16,6 +16,10 @@
       "rev": "086a40dc7ed8242c03be9f47fbcee68699cc2395",
       "src": "https://github.com/stevearc/conform.nvim"
     },
+    "dashboard-nvim": {
+      "rev": "f787e3462c2ee2b6117b17c1aa4ddf66cb6f57fe",
+      "src": "https://github.com/nvimdev/dashboard-nvim"
+    },
     "jai.vim": {
       "rev": "591aa0a75e9bb859028248b65a1a38d46b8d8576",
       "src": "https://github.com/rluba/jai.vim"
@@ -75,6 +79,10 @@
     "nvim-treesitter": {
       "rev": "539abf6da5ee8702e37b82cc953131dadd570da2",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "oxocarbon.nvim": {
+      "rev": "cf49e389c22dab56224e43ae16422ddcd5b61b28",
+      "src": "https://github.com/nyoom-engineering/oxocarbon.nvim"
     },
     "presence.nvim": {
       "rev": "87c857a56b7703f976d3a5ef15967d80508df6e6",

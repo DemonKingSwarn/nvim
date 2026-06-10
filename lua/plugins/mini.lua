@@ -15,7 +15,7 @@ require('mini.statusline').setup({
 --vim.api.nvim_set_hl(0, "MiniStatuslineFileinfo",    { fg = c.foreground, bg = c.color8  })
 
 -- colorscheme integration
---require("teide").setup({
+--require("oxocarbon").setup({
 --  integration = {
 --    mini = true,
 --  },
