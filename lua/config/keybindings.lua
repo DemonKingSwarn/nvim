@@ -17,6 +17,8 @@ vim.keymap.set({ "n", "v", "x" }, "<Leader>p", '"+p', { desc = "Paste from syste
 vim.keymap.set("v", "<", "<gv", { desc = "Indent left and reselect" })
 vim.keymap.set("v", ">", ">gv", { desc = "Indent right and reselect" })
 
+vim.keymap.set("n", "<Leader>s", ":vsplit<CR>", { desc = "split pane right" })
+
 -- file exploring
 
 -- Copy Full File-Path
